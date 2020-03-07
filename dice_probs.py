@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import sys
 
 import fire
@@ -61,5 +63,4 @@ def main(dice, successes, min_success=6):
 
 
 if __name__ == "__main__":
-    # test()
     fire.Fire(main)
